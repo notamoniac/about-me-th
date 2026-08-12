@@ -12,16 +12,16 @@ var count = function(){
 function show(){
     let show = document.getElementById("show-here");
     let show1 = document.getElementById("show-here1");
-    show.innerHTML = "This button is working in progress so it's useless to click it." ;
+    show.innerHTML = "ปุ่มนี้ยังทำไม่เสร็จ มันไร้ประโยชน์ที่จะกดปุ่มนี้" ;
     count()
     if(counter > 5){
-        show1.innerHTML = "<br> You have clicked the button more than 5 times!";
+        show1.innerHTML = "<br> คุณกดมา ถ ครั้งแล้วนะ";
     }
     if(counter > 20){
-        show1.innerHTML = "<br> You have clicked the button more than 20 times!";
+        show1.innerHTML = "<br> คุณกดมา 20 ครั้งแล้วนะ";
     }
     if(counter > 60){
-        show1.innerHTML = "<br> If you have nothing better to do, you can keep clicking the button.";
+        show1.innerHTML = "<br> ถ้าคุณไม่มีอะไรทำ คุณสามารถกดต่อไปได้เลย";
     }
     if(counter > 100){
         show1.innerHTML = "<br> Ok";
