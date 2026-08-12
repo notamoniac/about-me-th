@@ -12,10 +12,10 @@ var count = function(){
 function show(){
     let show = document.getElementById("show-here");
     let show1 = document.getElementById("show-here1");
-    show.innerHTML = "ปุ่มนี้ยังทำไม่เสร็จ มันไร้ประโยชน์ที่จะกดปุ่มนี้" ;
+    show.innerHTML = "ปุ่มนี้ยังทำไม่เสร็จ มันไร้สาระที่จะกดปุ่มนี้" ;
     count()
     if(counter > 5){
-        show1.innerHTML = "<br> คุณกดมา ถ ครั้งแล้วนะ";
+        show1.innerHTML = "<br> คุณกดมา 5 ครั้งแล้วนะ";
     }
     if(counter > 20){
         show1.innerHTML = "<br> คุณกดมา 20 ครั้งแล้วนะ";
